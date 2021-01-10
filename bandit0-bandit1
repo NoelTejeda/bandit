@@ -1,0 +1,5 @@
+La flag de este nivel está en un archivo llamado readme en el directorio home.
+
+para este caso usé:
+
+cat readme 
