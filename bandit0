@@ -1,0 +1,12 @@
+#para ingresar a un servidor se necesitan 4 cosas:
+
+#*direccion del servidor
+#*nombre de usuario
+#*contraseña 
+#*puerto
+
+#en el caso de bandit0:
+
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+
