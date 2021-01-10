@@ -1,0 +1,13 @@
+la clave para el proximo nivel está guardada en un archivo llamado (-) localizado en el directorio home
+
+para poder abrir archivos nombrados con este tipo de caracter no se le puede hacer un cat solamente ya que la consola se queda esperando el parametro siguiente.
+por lo tanto debemos indicarle la ruta absoluta o la relativa
+
+yo usé:
+
+cat ./-               ruta relativa   (el punto indica que se busque en el directorio actual)
+cat /home/bandit1/-   ruta absoluta   ( se le dice absoluta porque empieza desde la raiz)
+
+
+
+
