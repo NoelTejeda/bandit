@@ -1,3 +1,3 @@
 La clave para este nivel está guardada en un archivo llamado spaces in this filename localizado en el directorio home.
 
-para este caso podria usar:  find ./*name   (pero como el archivo está en el mismo directorio con un ls y luego un cat basta)
+para este caso podria usar:  find -name *name   (pero como el archivo está en el mismo directorio con un ls y luego un cat basta)
