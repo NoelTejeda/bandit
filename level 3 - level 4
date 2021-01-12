@@ -1,0 +1,7 @@
+el password para el siguiente nivel está guardado en un archivo oculto en el directorio inhere
+
+para buscar un archivo oculto es necesario al listarlos que nos lo muestre ejm: ls (lista) -a (archivos ocultos)
+
+pero podriamos usar find ./* para que nos muestre todos los archivos y nos muestra de una vez la ruta, solo quedaria la opción de hacerle un cat para mostrar
+el contenido del archivo oculto ejm: cat ./inhere/.hidden
+
