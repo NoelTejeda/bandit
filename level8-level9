@@ -1,0 +1,9 @@
+el password para el siguiente nivel esta almacenado en el archivo data.txt y esta en una linea que se repite solo una vez
+
+si hacemos un cat veremos varias lineas pero estas se repiten y las podemos visualizar usando "sort" el cual ordena alfabeticamente.ejemplo:
+cat data.txt | sort
+
+de todas ellas hay una sola que no se repite entonces ya viendo que hay una lista larga podriamos simplificar la búsqueda usando:
+sort data.txt | uniq -u        (uniq -u mostrará la única linea, osea no se repite) 
+
+Nota: para usar uniq -u es necesario primero realizar sort, ya que de lo contrario no funcionaria uniq -u
