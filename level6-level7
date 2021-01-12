@@ -1,0 +1,8 @@
+el password para este nivel se encuentra en alguna parte del servidor y tiene las siguientes caracteristicas:
+-user bandit7
+-group bandit6
+-33 bytes
+
+entonces como es parecido el nivel anterior solo tenemos buscar desde la raiz (/) y usamos:
+find / user bandit7 -group bandit6 -size 33c | xargs cat | xargs
+
