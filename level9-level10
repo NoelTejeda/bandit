@@ -1,0 +1,8 @@
+el password del siguiente nivel se encuentra almacenado en un archivo data.txt precedido de varios  caracteres "=" 
+
+si hacemos cat.data.txt veremos que es un archivo no legible
+
+por tal motivo usamos "string" y como esta precedido de varios '===' usamos grep
+
+strings data.txt | grep '==='
+
