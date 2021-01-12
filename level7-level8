@@ -1,0 +1,11 @@
+el password para el siguiente nivel se encuentra guardado en el archivo data.txt al lado de la palabra millionth
+
+si listamos el contenido de data.txt con cat data.txt veremos una lista larga de contenido y al lado unas claves, pero en este caso estamos buscando la que tiene
+la palabra millionth
+
+para saber la cantidad de lineas usamos cat data.txt | wc -l
+si quisieramos saber el número de caracteres usariamos : cat data.txt | wc -c
+
+entonces usariamos para este nivel: grep -i millionth . data.txt   (-i para que busque mayúsculas y minúsculas)
+
+
