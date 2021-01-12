@@ -1,0 +1,16 @@
+para el siguiente nivel el password se encuentra guardado debajo del directorio inhere y tiene todas las siguientes caracteristicas:
+-legible
+-de peso 1033 bytes
+-no ejecutable
+
+usariamos el siguiente script: find . -type f -readable -size 1033c ! -executable  | xargs cat | xargs (se repite otra vez xargs para evitar saltos de linea)
+
+como queremos los archivos no ejecutables usamos !
+
+y nos mostraria la ruta en donde se encuentra ese archivo con las caracteristicas y concatemanos en el mismo script con xargs cat para que nos muestre el 
+contenido del mismo
+
+es importante tomar en cuenta que para buscar por peso esta caracteristicas:
+bytes = c    (1033c)
+mega = M      (1033M)
+gigas = G      (1G)
