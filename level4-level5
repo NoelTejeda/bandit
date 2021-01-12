@@ -1,0 +1,11 @@
+el password para el proximo nivel está guardado en un archivo legible en el directorio inhere
+
+pero como no sabemos el tipo de archivo que está guardado podriamos usar "file" el cual nos muestra en que formato estan los archivos ejm:
+file inhere/*  
+
+ahora que tenemos listado todos los archivos, se nos muestra uno que llamará la atención y solo quedaria usar cat, podriamos que concatenarlo con xargs
+si queremos usar la misma linea ejm:  find . -name -file07 | xargs cat
+
+ó simplemente usar: cat inhere/-file07 después de haber usado "file"
+
+
