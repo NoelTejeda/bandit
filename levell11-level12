@@ -1,0 +1,5 @@
+rotar las posiciones de las mayusculas y minusculas 13 posiciones
+
+cat data.txt | tr ‘ [G-ZA-Fg-za-f]’ ‘[T-ZA-St-za-s]’
+
+también se puede usar: también se puede usar root13.com  ( necesito averiguar más sobre este tema )
