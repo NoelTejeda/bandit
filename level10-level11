@@ -1,0 +1,20 @@
+el password para el siguiente nivel está guardado en un archivo data.txt, el cual
+está codificado con base64
+
+en la consola para ver las pruebas que se pueden hacer convirtiendo las palabras en claves base64 se puede usar:
+
+echo ‘hola que tal’ | base64        e imprimirá el valor:
+SG9sYSBxdWUgdGFsCg==
+
+y para decodificar estas palabras y ver su significado se usa:
+
+echo ‘hola que tal’ | base64 | base64 -d        -d de docode
+
+
+para codificar un texto y guardarlo se usa:
+
+base64 texto.txt > texto.txt   ( para guardarlo de una o se puede modificar el nombre)
+
+para decodificarlo se usa:
+
+base64 texto.txt -d > texto.txt
